@@ -5,6 +5,7 @@ O objetivo principal foi treinar e reforçar meus conhecimentos em estruturaçã
 Ao clicar nos brasões das casas, uma descrição aparece abaixo com imagem e texto explicativo, tudo em um layout limpo e responsivo.
 
 ## 🎥 Demonstração
+<img src="https://github.com/annatld/midias/blob/main/HousesHogwarts.jpeg?raw=true"/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/annatld/midias/main/demo.gif" width="600"/>
 </p>
