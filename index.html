@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts Houses </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1> Hogwarts Houses </h1>
+        <img src="./img/CS.png" alt="Chapéu Seletor" class="cs">
+    </div>
+    <div class="container">
+
+    <div class="house" id = "Grifinoria">
+        <h2>Grifinória</h2>
+        <img src="./img/Grinffindor-H.png" alt="Brasão da Grifinória " onclick="mostrarInfo('Grifinoria')">
+        <p class="description">
+              Grifinória é a casa dos bravos e nobres de coração. 
+            Fundada por Godrico Gryffindor — um bruxo poderoso, valente e generoso que defendia a igualdade entre todos os bruxos,
+            independentemente de sua origem —, essa Casa valoriza a coragem, a superação pessoal e o altruísmo. 
+            Seu estandarte exibe um orgulhoso leão nas cores vermelho e dourado, simbolizando a bravura de seus membros.
+              Os estudantes da Grifinória tendem a ser aventureiros, leais e determinados, muitas vezes dispostos a arriscar 
+            tudo por aquilo em que acreditam. No entanto, sua coragem pode, por vezes, se transformar em imprudência, 
+            motivada pela teimosia ou por um julgamento precipitado, o que pode ser interpretado como egoísmo.
+              Entre os membros mais conhecidos da Grifinória estão Alvo Dumbledore, Harry Potter, Minerva McGonagall,
+            Hermione Granger e Rony Weasley — figuras marcantes que representam os ideais da Casa.</p>
+    </div>
+    <div class="house" id="LufaLufa">
+     
+        <h2>Lufa-Lufa</h2>
+        <img src="./img/Hufflepuf-H.png" alt="Brasão da Lufa-Lufa" onclick="mostrarInfo('LufaLufa')">
+        <p class="description">
+              Lufa-Lufa é conhecida por abrigar estudantes dedicados, pacientes, honestos e trabalhadores.
+            Fundada por Helga Hufflepuff, uma bruxa bondosa e humilde que aceitava todos os alunos, independentemente de suas 
+            habilidades ou origens, a Casa valoriza a humildade, a receptividade e a generosidade.
+              Seu estandarte carrega as cores amarelo e preto e tem como símbolo um texugo, representando o espírito trabalhador
+            e justo de seus membros. A Lufa-Lufa promove um ambiente acolhedor e colaborativo, onde todos são tratados com respeito e igualdade.
+              Entretanto, o excesso de compreensão e flexibilidade pode tornar seus alunos complacentes e dependentes, 
+            fazendo com que sejam vistos como ingênuos. Ainda assim, figuras notáveis como Cedrico Diggory, 
+            Ninfadora Tonks e Newt Scamander demonstram o grande valor e a força que emergem da modéstia e da dedicação.
+        </p>
+    </div>
+
+    <div class="house" id="Corvinal">
+        <h2>Corvinal</h2>
+        <img src="./img/Ravenclaw-H.png" alt="Brasão da Corvinal"onclick="mostrarInfo('Corvinal')">
+        <p class="description">
+              Corvinal é a casa que valoriza a inteligência, a criatividade e a sabedoria. Fundada por Rowena Ravenclaw, 
+            uma bruxa brilhante e inventiva que acreditava que o conhecimento era o maior dos poderes, a Casa acolhe aqueles 
+            que se destacam por suas habilidades intelectuais ou artísticas.
+              O estandarte da Corvinal ostenta uma águia — símbolo da visão elevada e da liberdade de pensamento — 
+            nas cores azul e bronze. Seus membros são reconhecidos por sua originalidade e por sua busca incessante por respostas e descobertas.
+            Ainda que seu foco acadêmico possa torná-los perfeccionistas, frios ou excessivamente críticos, 
+            os estudantes da Corvinal brilham por sua excentricidade e profundidade. Entre os corvinos mais notáveis estão Luna Lovegood, 
+            Fílio Flitwick, Cho Chang, Garrick Olivaras e Gilderoy Lockhart.
+              Curiosamente, Rowena é a única fundadora de Hogwarts cujo nome não foi traduzido nas versões brasileiras da saga.
+        </p>
+    </div>
+    <div class="house" id="Sonserina">
+        <h2>Sonserina</h2>
+        <img src="./img/Slytherin-H.png" alt="Brasão da Sonserina" onclick="mostrarInfo('Sonserina')">
+        <p class="description">
+              Sonserina é talvez a Casa mais controversa de Hogwarts. Fundada por Salazar Slytherin, 
+            um bruxo poderoso e seletivo que defendia a pureza do sangue bruxo, a Casa valoriza a ambição, a astúcia e a 
+            determinação. Muitos de seus estudantes vêm de famílias tradicionais do mundo bruxo, como os Malfoy, os Black e os Lestrange.
+              Representada por uma serpente nas cores verde e prata, a Sonserina acolhe aqueles que buscam o poder e o sucesso
+            com inteligência e estratégia. Seus membros tendem a ser líderes natos, motivados por grandes objetivos e pela vontade de se destacarem.
+            Contudo, essa busca por grandeza pode ser acompanhada por um senso de competição exacerbado, o que alimenta a fama de presunção, egoísmo e manipulação. 
+              Apesar da má reputação por ter abrigado bruxos das trevas como Tom Riddle (Voldemort), Belatriz Lestrange e Dolores Umbridge, 
+            a Sonserina também revelou figuras de destaque como Severo Snape e Merlin, provando que a ambição, quando bem direcionada, pode ser uma força positiva.
+        </p>
+
+    </div>
+    </div>
+    <div id="info-container" class="info-container"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
